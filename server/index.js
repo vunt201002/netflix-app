@@ -9,12 +9,12 @@ const app = express();
 
 dotenv.config();
 app.use(cors({
-    origin: "https://netflix-yzuc.onrender.com"
+    origin: "https://netflix-app-rk8w.onrender.com"
 }));
 app.use(function (req, res, next) {
 
     // Website you wish to allow to connect
-    res.setHeader('Access-Control-Allow-Origin', 'https://netflix-yzuc.onrender.com');
+    res.setHeader('Access-Control-Allow-Origin', 'https://netflix-app-rk8w.onrender.com');
 
     // Request methods you wish to allow
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
